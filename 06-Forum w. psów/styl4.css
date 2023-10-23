@@ -1,0 +1,53 @@
+*
+{
+    font-family: Garamond;
+}
+.baner
+{
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+.lewy
+{
+    background-color: tan;
+    height: 500px;
+    width: 40%;
+}
+.flex_con
+{
+    display: flex;
+}
+.prawy
+{
+    width: 60%;
+}
+.prawy1, .prawy2
+{
+    background-color: tan;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.stopka
+{
+    background-color: saddlebrown;
+    color: white;
+}
+form
+{
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 30px;
+    width: 300px;
+}
+input[type=text], input[type=password], button[type=submit]
+{
+    margin: 5px;
+}
+p::before
+{
+    content: "STATUS:" ;
+}
